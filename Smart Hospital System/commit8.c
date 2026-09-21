@@ -99,9 +99,9 @@ int main()
 
         if (scanf("%d", &choice) != 1)
         {
-            while (getchar() != '\n');
+            while (getchar() != '\n'); // Clear invalid buffer
 
-            printf("Invalid input!\n");
+            printf("\nInvalid input! Please enter a number between 1 and 5.\n");
 
             continue;
         }

@@ -1,3 +1,30 @@
+
+/*
+ * ============================================================
+ * Smart Hospital & Resource Allocation System
+ * ============================================================
+ *
+ * Course Code : CSC 1012
+ * Course Name : Introduction to Computer Programming
+ * Assignment  : Individual Assignment 2026
+ *
+ * Project Summary:
+ * This project is a modular C-based hospital management system
+ * designed to handle patient registration, triage priority,
+ * bed allocation, billing calculations, and hospital analytics.
+ *
+ * Main Features:
+ * - Patient registration and information management
+ * - Triage priority queue using selection sort
+ * - Hospital ward and bed allocation
+ * - Automated billing and age-based discounts
+ * - Emergency surcharge calculation
+ * - Revenue and bed occupancy analytics
+ * - File handling for bed and patient records
+ *
+ * ============================================================
+ */
+
 #include <stdio.h>
 #include <string.h>
 

@@ -166,6 +166,24 @@ void displayMenu()
 // Patient Registration
 void registerPatient()
 {
+    // Input validation for Patient Age
+    printf("Enter Patient Age: ");
+
+    while (scanf("%d", &p.age) != 1 || p.age <= 0 || p.age > 120) {
+        printf("Invalid age! Please enter a valid age (1-120): ");
+
+        while (getchar() != '\n');  // Clear invalid input buffer
+}
+
+    // Input validation for Urgency Level
+    printf("Emergency / Triage Level (1 = Normal, 2 = Urgent, 3 = Critical): ");
+
+    while (scanf("%d", &p.urgency_level) != 1 ||p.urgency_level < 1 || p.urgency_level > 3) {
+
+        printf("Invalid level! Enter 1 (Normal), 2 (Urgent), or 3 (Critical): ");
+
+        while (getchar() != '\n');  // Clear invalid input buffer
+}
     if (patient_count >= MAX_PATIENTS)
     {
         printf("\nSystem capacity reached! Cannot register more patients.\n");
