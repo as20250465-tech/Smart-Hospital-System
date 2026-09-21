@@ -2,7 +2,9 @@
 
 
 
-CSC 1012 Introduction to Computer Programming - Individual Assignment 2026
+CSC 1012 Introduction to Computer Programming - Individual Assignment 2026  
+
+Faculty of Applied Sciences, University of Sri Jayewardenepura
 
 
 
@@ -18,7 +20,7 @@ A modular C-based hospital resource management system developed to handle patien
 
 
 
-\- \*\*Lookup Data\*\*: Doctor specialty fees and hospital ward bed rates
+\- \*\*Lookup Data\*\*: Doctor specialty fees and hospital ward bed rates using constant arrays
 
 \- \*\*Patient Intake\*\*: Interactive registration with age-based discounts (15%) and emergency surcharges
 
@@ -26,5 +28,25 @@ A modular C-based hospital resource management system developed to handle patien
 
 \- \*\*Hospital Analytics\*\*: Revenue breakdown, discount tracking, and bed occupancy percentages
 
-\- \*\*File Persistence\*\*: Saving bed availability status and appending billing logs to text files
+\- \*\*File Persistence\*\*: Saving bed availability status (`beds\_status.txt`) and appending billing logs (`patient\_records.txt`)
+
+
+
+\## How to Compile \& Run
+
+
+
+1\. Open the `Smart-Hospital-System` directory in Code::Blocks.
+
+2\. Build and run `main.c` (Shortcut: `F9`).
+
+3\. Alternatively, compile using GCC via CLI:
+
+
+
+```bash
+
+gcc main.c -o SmartHospitalSystem
+
+./SmartHospitalSystem
 
